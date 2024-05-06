@@ -1,0 +1,4 @@
+while(!mics.begin()){
+    Serial.println("NO Deivces !");
+    delay(1000);
+}

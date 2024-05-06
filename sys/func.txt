@@ -1,0 +1,4 @@
+float getNO2(){
+  float no2 = mics.getGasData(NO2);
+  return no2;
+}

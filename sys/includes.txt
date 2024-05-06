@@ -1,0 +1,5 @@
+#define ADC_PIN   A0
+#define POWER_PIN 10
+DFRobot_MICS_ADC mics(/*adcPin*/ADC_PIN, /*powerPin*/POWER_PIN);
+
+String NO2_val = "";

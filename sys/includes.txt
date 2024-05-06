@@ -1,3 +1,4 @@
+#include "DFRobot_MICS.h"
 #define ADC_PIN   A0
 #define POWER_PIN 10
 DFRobot_MICS_ADC mics(/*adcPin*/ADC_PIN, /*powerPin*/POWER_PIN);
